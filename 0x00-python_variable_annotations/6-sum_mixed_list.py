@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-""" 
-Write a type-annotated function sum_mixed_list which takes a
-list mxd_lst of integers and floats and returns their sum as a float.
-"""
+"""type-annotated function sum_list which takes a list input_list"""
 from typing import List
 
 
