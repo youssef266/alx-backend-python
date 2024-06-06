@@ -6,6 +6,6 @@ list mxd_lst of integers and floats and returns their sum as a float.
 from typing import List
 
 
-def sum_mixed_list(mxd_lst: List[int, float]) -> float:
-    """return sum of list of integers and floats"""
-    return sum(mxd_lst)
+def sum_list(input_list: List[float]) -> float:
+    """Returns:the sum of the float in the list"""
+    return float(sum(input_list))
